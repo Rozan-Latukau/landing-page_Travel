@@ -7,9 +7,9 @@ export default function Home() {
         <div className="mx-6 lg:mx-20 pt-20">
             <div className="pb-10 relative ">
                 <Image src="/assets/landingpage.jpg" alt="Logo" width={200} height={200} className="rounded-lg w-full h-[25rem] md:h-[35rem] object-cover opacity-80 " />
-                <div className="absolute inset-0 flex flex-col items-start justify-center text-white p-6 md:p-10">
-                    <h1 className="text-[25px] md:text-[40px] pb-6 font-bold">Selamat Datang Di, Travel <br />Indonesia</h1>
-                    <Button className="bg-white text-black px-20 hover:text-white">Lihat</Button>
+                <div className="absolute inset-0 flex flex-col items-start justify-center  p-6 md:p-10">
+                    <h1 className="text-[25px] md:text-[40px] pb-6 font-bold text-white">Selamat Datang Di, Travel <br />Indonesia</h1>
+                    <Button className="px-20 bg-transparent text-white" variant="outline">Lihat</Button>
                 </div>
             </div>
             <div className="pt-20">

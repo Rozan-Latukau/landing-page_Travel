@@ -40,7 +40,7 @@ export default function Home() {
                     <h1 className="text-[25px] md:text-[30px] text-start font-bold">Pilih tur Anda</h1>
                     <Button variant="link">Lihat Selengkapnya</Button>
                 </div>
-                <div className="grid md:grid-flow-col grid-cols-2 md:grid-cols-4 text-center pt-12 gap-6">
+                <div className="grid md:grid-flow-col grid-cols-1 md:grid-cols-4 text-center pt-12 gap-6">
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <Link href="#">
                             <Image src="/assets/landingpage.jpg" alt="card-1" width={200} height={200} className="w-full h-48 rounded-md" />

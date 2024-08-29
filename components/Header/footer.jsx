@@ -43,7 +43,7 @@ const Footer = () => {
                         <div className="flex flex-col">
                             <h3 className="text-white text-lg font-semibold">Kontak Kami</h3>
                             <p className="text-white pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum hendrerit metus id vestibulum</p>
-                            <Link href="/" className="text-white pt-4">Email: anonymus@fowarin</Link>
+                            <Link href="/" className="text-white pt-4">Email: anonymus@gmail.com</Link>
                             <Link href="/" className="text-white pt-4">Phone: 08332132739</Link>
                         </div>
                         <div className="flex flex-col">
